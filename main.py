@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 
 def get_env_variable(var_name: str) -> str:
     """
-    Retrieve a required environment variable. If it's missing, log an error,
+    Retrieves required environment variable. If it's missing, logs an error,
     display an error on Streamlit, and exit the application.
     
     Args:
