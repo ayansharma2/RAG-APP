@@ -17,6 +17,7 @@ from langchain_couchbase.vectorstores import CouchbaseVectorStore
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers.string import StrOutputParser
+from dotenv import load_dotenv
 
 # Configure logging
 logging.basicConfig(
@@ -132,6 +133,7 @@ def build_rag_chain(cluster: Cluster,
     return chain.invoke
 
 
+load_dotenv('local.env')
 def main():
     """Main function for the Streamlit Hotel Recommendation System."""
     st.title("Hotel Recommendation System")
