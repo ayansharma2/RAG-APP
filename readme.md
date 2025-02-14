@@ -106,7 +106,7 @@ Once you have installed the dependencies and loaded your environment variables, 
 streamlit run main.py
 ```
 
-After running the command above, Streamlit will start a local web server and provide you a URL (usually http://localhost:8501). Open the URL in your browser to interact with the Hotel Recommendation System.
+After running the command above, Streamlit will start a local web server and provide you a URL. Open the URL in your browser to interact with the Hotel Recommendation System.
 
 ## Troubleshooting
 
