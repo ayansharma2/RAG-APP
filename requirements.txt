@@ -1,5 +1,6 @@
 streamlit>=1.42.0
 couchbase>=4.3.3
 langchain-core>=0.3.3
-langchain-openai>==0.3.4
+langchain-openai>=0.3.4
 langchain-couchbase>=0.2.4
+python-dotenv>=1.0.1
